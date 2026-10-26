@@ -1,0 +1,16 @@
+{
+  "name": "blockvote",
+  "version": "1.0.0",
+  "description": "BlockVote - Blockchain based decentralized e-voting dApp (Mini Project)",
+  "scripts": {
+    "node": "hardhat node",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
